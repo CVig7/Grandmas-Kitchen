@@ -1,0 +1,99 @@
+body {
+  background-color: #fff0f0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Luckiest Guy', cursive;
+  color: #111;
+  line-height: 1.6;
+}
+
+.wrapper {
+  width: 480px;
+  margin: 0 auto;
+  background-color: white;
+  border-left: 8px solid #ff4d4d;
+  border-right: 8px solid #ff4d4d;
+  box-shadow: 0 0 20px #aaa;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #ff4d4d;
+  color: #fffef0;
+  padding: 30px 10px;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  font-size: 24px;
+  text-shadow: 2px 2px #000;
+  border-bottom: 4px dotted #fff;
+}
+
+nav {
+  background-color: #66ccff;
+  text-align: center;
+  padding: 12px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+nav a {
+  background-color: #ffeb3b;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:focus,
+nav a:hover {
+  background-color: #ffd700;
+  outline: 2px solid #333;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 2px dashed #ccc;
+  background: repeating-linear-gradient(
+    -45deg,
+    #fff,
+    #fff 10px,
+    #f8f8f8 10px,
+    #f8f8f8 20px
+  );
+}
+
+h2 {
+  color: #d6336c;
+  font-size: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff4d4d;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  font-family: monospace;
+}
