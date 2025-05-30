@@ -7,8 +7,11 @@ export default defineConfig({
     outDir: 'docs',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
-        // Add more HTML files here later if needed
+        main: resolve(__dirname, 'index.html'),
+        about: resolve(__dirname, 'about.html'),
+        // add more later like:
+        // menu: resolve(__dirname, 'menu.html'),
+        // locations: resolve(__dirname, 'locations.html')
       }
     }
   }
