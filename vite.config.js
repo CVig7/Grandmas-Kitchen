@@ -8,7 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about.html'),
+        about: resolve(__dirname, 'About/index.html'),
         menu: resolve(__dirname, 'menu.html'),
         // add more later like:
         // menu: resolve(__dirname, 'menu.html'),
